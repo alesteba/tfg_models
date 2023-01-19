@@ -15,9 +15,7 @@ NAME = "alesteba"
 
 path = os.getcwd()
 
-publish_path = os.path.join(path, 'publish')
-
-print(publish_path)
+publish_path = path
 
 repo = Repo(publish_path)
 
